@@ -3,4 +3,4 @@ Curso de HTML5 e CSS3 do CursoemVideo
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://github.com/lucascardosoinocencio/html-css/tree/main/Exercicios/ex001">Executar o exercício 001</a>
+<a href="https://lucascardosoinocencio.github.io/html-css/Exercicios/ex002/index.html">Executar o exercício 001</a>
