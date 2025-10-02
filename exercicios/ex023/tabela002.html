@@ -11,6 +11,7 @@
 
         table {
             width: 500px;
+            position: relative;
         }
 
         td, th {
@@ -25,15 +26,17 @@
             background-color: lightgray;
         }
 
-        thead {
-            background-color: gray;
+        thead, tfoot {
+            background-color: rgb(55, 55, 55);
             color: white;
         }
 
-        tfoot {
-            background-color: gray;
-            color: white;
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(55, 55, 55);
         }
+
         tbody > tr:nth-child(odd) {
             background-color: lightgray;
         }
