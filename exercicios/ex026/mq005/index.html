@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Saudável</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vida Saudável</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Alimentação</a></li>
+                <li><a href="#">Treinos</a></li>
+                <li><a href="#">Motivação</a></li>
+                <li><a href="#">Receitas Fit</a></li>
+                <li><a href="#">Saúde Mental</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Transforme Seu Corpo e Sua Mente</h2>
+            <p>Levar uma vida saudável vai muito além de ter um corpo bonito. É sobre ter disposição, energia e equilíbrio para viver bem todos os dias. A combinação entre boa alimentação, sono de qualidade e prática regular de exercícios faz toda a diferença.</p>
+
+            <p>O processo de emagrecimento deve ser leve e consistente. Não se trata de dietas restritivas, mas de criar novos hábitos que realmente façam sentido para você. Comer bem, treinar com prazer e respeitar o próprio tempo é o segredo do sucesso.</p>
+
+            <p>Além da parte física, cuidar da mente é essencial. A motivação pode oscilar, e está tudo bem. O importante é manter o foco no seu objetivo e celebrar cada pequena conquista. O progresso acontece um passo de cada vez.</p>
+
+            <p>Seja para perder peso, ganhar massa magra ou apenas se sentir melhor, o primeiro passo é acreditar que você é capaz. Seu corpo é o reflexo daquilo que você alimenta — física e emocionalmente.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
