@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Hardware</title>
+  <link rel="icon" href="hardware.png" type="image/x-icon"> <!-- Favicon -->
+  <style>
+    body {
+      background-color: rgb(47, 56, 59);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 560px;
+      height: 315px;
+      margin: 20px 0;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .botao-voltar {
+      margin-top: 30px;
+    }
+
+    .botao-voltar img {
+      width: 50px;
+      transition: transform 0.2s;
+    }
+
+    .botao-voltar img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    a {
+      color: lightblue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Curso de Hardware</h1>
+
+  <iframe src="https://www.youtube.com/embed/zpK_MqEMgu4?si=DH_ELsTIU85pVscM"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+  </iframe>
+
+  <h2>
+    <a href="https://www.youtube.com/watch?v=iT6E92Kt38o&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW" target="_blank">
+      Veja o curso completo no YouTube
+    </a>
+  </h2>
+
+  <div class="botao-voltar">
+    <a href="index.html">
+      <img src="voltar.png" alt="Voltar para a página inicial">
+    </a>
+  </div>
+</body>
+</html>
